@@ -3,7 +3,7 @@
 ## Getting Started
 
 To train on other datasets or splits, please modify
-``dataset`` and ``split`` in [train.sh](https://github.com/ZhanAKuan/FL-SCD/blob/d4729c76357723a9fcf370830cea129fba6103e0/FLSCD/train.sh)
+``dataset`` and ``split`` in [train.sh](https://github.com/ZhanAKuan/FL-SCD/blob/d4729c76357723a9fcf370830cea129fba6103e0/FLSCD/train.sh).
 Before starting training, you need to generate your own splits. The format of the splits is as follows:
 ```
 [Your Splits Path]/
