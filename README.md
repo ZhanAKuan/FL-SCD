@@ -1,5 +1,28 @@
 # FL-SCD
-This code for  Semi-supervised CD methods will coming soon.
+
+## Getting Started
+
+To train on other datasets or splits, please modify
+``dataset`` and ``split`` in [train.sh](https://github.com/LiheYoung/UniMatch/blob/main/more-scenarios/remote-sensing/scripts/train.sh).
+
+Before starting training, you need to generate your own splits. The format of the splits is as follows:
+```
+├── [Your splits Path]
+    ├── 5\
+        └── ├──labeled.txt
+            ├──unlabeled.txt
+    ├── 10\
+        └── ├──labeled.txt
+            ├──unlabeled.txt
+    ├── 20\
+        └── ├──labeled.txt
+            ├──unlabeled.txt
+    ├── 40\
+        └── ├──labeled.txt
+            ├──unlabeled.txt
+    ├──val.txt
+    ├──test.txt
+```
 
 ### Dataset
 
