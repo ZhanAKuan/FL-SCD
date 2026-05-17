@@ -2,7 +2,7 @@
 dataset: LEVIR-256
 nclass: 2
 crop_size: 256
-data_root: /home/zhanyikuan/DATA/LEVIR/LEVIR_256_p
+data_root: /data_root
 
 # arguments for training
 epochs: 200

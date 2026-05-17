@@ -27,7 +27,7 @@ mkdir -p $save_path
  CUDA_VISIBLE_DEVICES=3 nohup torchrun --nproc_per_node=1 \
     --master_addr=localhost \
     --master_port=1456  \
-    /home/zhanyikuan/FL-SCD/unimatch_SSM_FRE.py \
+      FL-SCD.py \
     --config=$config --labeled-id-path $labeled_id_path --unlabeled-id-path $unlabeled_id_path \
     --save_path $save_path --port 1456 &
 
