@@ -7,21 +7,21 @@ To train on other datasets or splits, please modify
 
 Before starting training, you need to generate your own splits. The format of the splits is as follows:
 ```
-├── [Your splits Path]
-    ├── 5\
-        └── ├──labeled.txt
-            ├──unlabeled.txt
-    ├── 10\
-        └── ├──labeled.txt
-            ├──unlabeled.txt
-    ├── 20\
-        └── ├──labeled.txt
-            ├──unlabeled.txt
-    ├── 40\
-        └── ├──labeled.txt
-            ├──unlabeled.txt
-    ├──val.txt
-    ├──test.txt
+[Your Splits Path]/
+├── 5/
+│   ├── labeled.txt
+│   └── unlabeled.txt
+├── 10/
+│   ├── labeled.txt
+│   └── unlabeled.txt
+├── 20/
+│   ├── labeled.txt
+│   └── unlabeled.txt
+├── 40/
+│   ├── labeled.txt
+│   └── unlabeled.txt
+├── val.txt
+└── test.txt
 ```
 
 ### Dataset
