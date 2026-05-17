@@ -24,7 +24,15 @@ Before starting training, you need to generate your own splits. The format of th
 └── test.txt
 ```
 
-### Dataset
+## Installation
+```
+cd FLSCD
+conda create -n FLSCD python=3.10.4
+conda activate FLSCD
+pip install -r requirements.txt
+pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113
+```
+## Dataset
 
 The LEVIR Building CD Dataset is openly available at https://justchenhao.github.io/LEVIR/.
 
