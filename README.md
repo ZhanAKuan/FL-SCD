@@ -6,11 +6,11 @@ To train on other datasets or splits, please modify
 ``dataset`` and ``split`` in [train.sh](https://github.com/LiheYoung/UniMatch/blob/main/more-scenarios/remote-sensing/scripts/train.sh).
 
 Before starting training, you need to generate your own splits. The format of the splits is as follows:
-```
+
 [Your Splits Path]/
 ├── 5/
-│   ├── labeled.txt
-│   └── unlabeled.txt
+│   ├── labeled.txt      # List of selected labeled sample names (one per line)
+│   └── unlabeled.txt    # List of selected unlabeled sample names (one per line)
 ├── 10/
 │   ├── labeled.txt
 │   └── unlabeled.txt
